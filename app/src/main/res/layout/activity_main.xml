@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <LinearLayout
+        style="@style/layout_them"
+        android:background="@drawable/univers"
+        android:padding="30dp">
+
+        <LinearLayout style="@style/layout_them">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+
+                <LinearLayout
+                    android:id="@+id/AllSongs_layout"
+                    style="@style/layout_them"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/shape">
+
+                    <TextView
+                        android:id="@+id/all_song_id"
+                        style="@style/TextView_style"
+                        android:background="@drawable/shape"
+                        android:clickable="true"
+                        android:text="@string/allSnog" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/layout_them"
+                    android:layout_margin="10dp"
+                    android:layout_toRightOf="@id/AllSongs_layout"
+                    android:background="@drawable/shape">
+
+                    <TextView
+                        android:id="@+id/text_for_trending"
+                        style="@style/TextView_style"
+                        android:background="@drawable/shape"
+                        android:text="@string/Trending" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/layout_them"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/third_layout"
+                    style="@style/layout_them"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/shape">
+
+                    <TextView
+                        android:id="@+id/text_for_top50"
+                        style="@style/TextView_style"
+                        android:background="@drawable/shape"
+                        android:text="@string/tp50" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/layout_them"
+                    android:layout_margin="10dp"
+                    android:layout_toRightOf="@id/third_layout"
+                    android:background="@drawable/shape">
+
+                    <TextView
+                        android:id="@+id/text_for_archived"
+                        style="@style/TextView_style"
+                        android:background="@drawable/shape"
+                        android:text="@string/Archived" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/search" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

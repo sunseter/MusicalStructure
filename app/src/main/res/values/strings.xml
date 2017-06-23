@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+
+    <string name="allSnog">All Song</string>
+
+    <string name="Trending">Trending</string>
+
+    <string name="Archived">Archived</string>
+
+    <string name="tp50">Top 50</string>
+
+    <string name="search">Search...</string>
+
+    <string name="back">Home Screen</string>
+
+    <string name="explain_all_song">this screen will show all song that the app can show!</string>
+
+    <string name="explain_archived_activity">here in this screen you can find all your archived files</string>
+
+    <string name="explain_top50_activity">in this screen the top 50 song will show up, and will updates every week!!</string>
+
+    <string name="explain_trending_activity">this is a list of the new and trending songs that people are watching right now</string>
+
+    <string name="explain_search">here  you can search for any song there is in this app!</string>
+</resources>
